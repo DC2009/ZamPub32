@@ -1,0 +1,22 @@
+FILE 2
+[General]
+Program=Zamówienia publiczne
+Version= Wersja 3.0 
+Copyright=Copyright (c) 1997 - TELESOFT communication s.c.
+NumDisks=1
+DefaultDir=C:\ZAMPUB3
+PMGroup=Zamówienia publiczne
+
+[SubDirs]
+SYSTEM=1
+
+[Disk1]
+
+[Disk2]
+
+[Disk3]
+
+[PMGroup]
+siwz.exe=i,SIWZ 3.0
+druzp.exe=i,DRUZP 3.0
+ocof.exe=i,OCOF 3.0

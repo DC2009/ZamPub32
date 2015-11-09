@@ -1,0 +1,18 @@
+program Zpadmin;
+
+uses
+  Forms,
+  Admmain in 'ADMMAIN.PAS' {Main},
+  Pwd in 'PWD.PAS' {PwdDlg},
+  User in 'USER.PAS' {UserDlg},
+  Useredit in 'USEREDIT.PAS' {UserEditDlg},
+  Siwzini in '\ZAMPUB2\SIWZINI.PAS';
+
+{$R *.RES}
+
+begin
+  Application.CreateForm(TMain, Main);
+  Application.CreateForm(TPwdDlg, PwdDlg);
+  Application.CreateForm(TUserDlg, UserDlg);
+  Application.Run;
+end.
